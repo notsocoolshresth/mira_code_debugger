@@ -73,3 +73,4 @@ function formatResponse(responseText) {
     });
 
     return formatted;
+}
