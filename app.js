@@ -67,7 +67,7 @@ function formatResponse(responseText) {
             formatted += inCodeBlock ? '<div class="code-block">' : '</div>';
         } else if (inCodeBlock) {
             formatted += `${line}\n`;
-        } else {
+        } else {    
             formatted += `<div>${line}</div>`;
         }
     });
