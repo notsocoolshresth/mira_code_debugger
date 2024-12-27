@@ -24,7 +24,7 @@ async function sendRequest() {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'miraauthorization': API_KEY
+                'miraauthorization': 'sb-8e7d79b6d6c5ad98e3b87242d74cb207'
             },
             body: JSON.stringify({
                 input: {
